@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="433.0" prefWidth="259.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.calculadoraamadeu.HelloController">
+   <children>
+      <TextField fx:id="visor" alignment="BOTTOM_RIGHT" editable="false" layoutX="14.0" layoutY="31.0" prefHeight="57.0" prefWidth="233.0" />
+      <Button fx:id="bt7" layoutX="14.0" layoutY="110.0" mnemonicParsing="false" onAction="#onBtn7Click" prefHeight="46.0" prefWidth="47.0" text="7" />
+      <Button fx:id="bt8" layoutX="76.0" layoutY="110.0" mnemonicParsing="false" onAction="#onBtn8Click" prefHeight="46.0" prefWidth="47.0" text="8" />
+      <Button fx:id="bt9" layoutX="138.0" layoutY="110.0" mnemonicParsing="false" onAction="#onBtn9Click" prefHeight="46.0" prefWidth="47.0" text="9" />
+      <Button fx:id="btDivisao" layoutX="197.0" layoutY="110.0" mnemonicParsing="false" onAction="#onBtnDivisaoClick" prefHeight="46.0" prefWidth="47.0" text="/" />
+      <Button fx:id="bt4" layoutX="15.0" layoutY="176.0" mnemonicParsing="false" onAction="#onBtn4Click" prefHeight="46.0" prefWidth="47.0" text="4" />
+      <Button fx:id="bt5" layoutX="77.0" layoutY="176.0" mnemonicParsing="false" onAction="#onBtn5Click" prefHeight="46.0" prefWidth="47.0" text="5" />
+      <Button fx:id="bt6" layoutX="139.0" layoutY="176.0" mnemonicParsing="false" onAction="#onBtn6Click" prefHeight="46.0" prefWidth="47.0" text="6" />
+      <Button fx:id="btMult" layoutX="198.0" layoutY="176.0" mnemonicParsing="false" onAction="#onBtnMultClick" prefHeight="46.0" prefWidth="47.0" text="X" />
+      <Button fx:id="bt1" layoutX="14.0" layoutY="245.0" mnemonicParsing="false" onAction="#onBtn1Click" prefHeight="46.0" prefWidth="47.0" text="1" />
+      <Button fx:id="bt2" layoutX="76.0" layoutY="245.0" mnemonicParsing="false" onAction="#onBtn2Click" prefHeight="46.0" prefWidth="47.0" text="2" />
+      <Button fx:id="bt3" layoutX="138.0" layoutY="245.0" mnemonicParsing="false" onAction="#onBtn3Click" prefHeight="46.0" prefWidth="47.0" text="3" />
+      <Button fx:id="btSub" layoutX="197.0" layoutY="245.0" mnemonicParsing="false" onAction="#onBtnSubClick" prefHeight="46.0" prefWidth="47.0" text="-" />
+      <Button fx:id="bt0" layoutX="16.0" layoutY="310.0" mnemonicParsing="false" onAction="#onBtn0Click" prefHeight="46.0" prefWidth="108.0" text="0" />
+      <Button fx:id="btResult" layoutX="140.0" layoutY="310.0" mnemonicParsing="false" onAction="#onBtnResultClick" prefHeight="46.0" prefWidth="47.0" text="=" />
+      <Button fx:id="btSoma" layoutX="199.0" layoutY="310.0" mnemonicParsing="false" onAction="#onBtnSomaClick" prefHeight="46.0" prefWidth="47.0" text="+" />
+      <Button fx:id="btClear" layoutX="16.0" layoutY="370.0" mnemonicParsing="false" onAction="#onBtnClearClick" prefHeight="46.0" prefWidth="233.0" text="C" />
+   </children>
+</Pane>
